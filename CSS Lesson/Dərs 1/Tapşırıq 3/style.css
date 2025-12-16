@@ -1,0 +1,122 @@
+body {
+    background: #0f1e25;
+    color: #cfd9de;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* HEADER */
+.header {
+    background: #1e3a45;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 3px solid #233e45;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.header p {
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+/* TOP MENU */
+.top-menu {
+    background: #182830;
+}
+
+.top-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.top-menu ul li {
+    margin: 0 20px;
+}
+
+.top-menu ul li a {
+    color: #cfd9de;
+    text-decoration: none;
+}
+
+.top-menu ul li a:hover {
+    color: white;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    padding: 30px;
+}
+
+/* SOL BLOK */
+.sidebar {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.sidebar h3 {
+    border-bottom: 1px solid #31444c;
+    padding-bottom: 5px;
+}
+
+.sidebar .menu {
+    list-style: square;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* ORTA BLOK */
+.content {
+    width: 50%;
+    padding: 0 20px;
+    border-left: 1px solid #31444c;
+    border-right: 1px solid #31444c;
+}
+
+.content h3 {
+    border-bottom: 1px solid #31444c;
+    padding-bottom: 5px;
+}
+
+/* SAĞ BLOK */
+.right-box {
+    width: 25%;
+    padding-left: 20px;
+}
+
+.right-box h3 {
+    border-bottom: 1px solid #31444c;
+    padding-bottom: 5px;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 10px;
+    padding: 10px 16px;
+    background: #cfd9de;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #fff;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #25353c;
+    margin-top: 30px;
+    color: #99a6ac;
+}
